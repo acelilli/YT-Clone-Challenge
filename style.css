@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.sidebaricons {
+    padding: 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.sidebaricons p {
+    margin: 0;
+}
+
+.sidebaricons ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display:flex;
+    max-height: 50%;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon {
+    margin: 0 0.5em;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.8em;
+}
+
+#topbar-icons {
+    display: flex;
+}
+
+#topbar-icons ion-icon {
+    font-size: 1.5em;
+    padding: 0 0.3em
+}
+
+#content {
+    display: flex; 
+    flex-flow:row wrap;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    margin-top: 1.5em;
+  }
+
+.tmb-preview {
+    padding: 0 10px 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 55vh;
+    flex-direction: column;
+}
+
+.vid img{
+    width: 80%;
+}
+
+
+.description {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+
+.description img{
+    height: 6vh;
+}
+
+.des-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+
+.des-content p{
+    margin: 0;
+}
+
+.content-name {
+    font-weight: 700;
+}
+
+.content-description {
+    color: rgb(94, 94, 94);
+}
